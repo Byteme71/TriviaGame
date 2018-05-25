@@ -1,0 +1,43 @@
+body {
+    background: url('../images/5898f87a32b42b658415352aa9c0389b.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#card{
+    text-align: center;
+    margin: 12% 18%;
+    padding: 50px;
+    background-color: rgba(224, 224, 224, 0.8);
+    box-shadow: 10px 10px 5px grey;
+    border-radius:10px;
+}
+
+#submit:hover {
+    background-color: rgba(255,255,255,0.2);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+#submit {
+    color: rgba(255,255,255,1);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    position: relative;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+#submit {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 125px;
+    width: 60%;
+    cursor: pointer;
+}
